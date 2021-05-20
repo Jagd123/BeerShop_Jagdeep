@@ -8,7 +8,7 @@ namespace BeerShop_Jagdeep.Models
     public class Price
     {
         public int ID { get; set; }
-        public decimal Rate { get; set; }
+        public string Rate { get; set; }
         public List<Customer> Customers { get; set; }
     }
 }
